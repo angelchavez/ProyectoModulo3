@@ -1,0 +1,1745 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">ene 13, 2025 11:58:50 a. m.</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Login</a><a class="dropdown-item" href="#">@MetodoPago</a><a class="dropdown-item" href="#">@Pedido2</a><a class="dropdown-item" href="#">@Register</a><a class="dropdown-item" href="#">@chec01</a><a class="dropdown-item" href="#">@Direccion</a><a class="dropdown-item" href="#">@Pedido1</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CHECKOUT</p>
+            <p class="text-sm">
+              <span>11:58:52</span> / <span>00:02:00:878</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">CHECKOUT</h5>
+<span class='badge badge-success'>01.13.2025 11:58:52</span>
+<span class='badge badge-danger'>01.13.2025 12:00:53</span>
+<span class='badge badge-default'>00:02:00:878</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> Agregar Direccion
+Metodo de Pago
+Cesta de Pedido1
+Cesta de Pedido2</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Agregar una nueva dirección de envío</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Agregar una nueva dirección de envío</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mat-menu-panel-0']/div/button[2]"}
+  (Session info: MicrosoftEdge=131.0.2903.146)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b2f4dba1d6c5e6fa6fdbfea9c2ef274b, findElement {using=xpath, value=//*[@id='mat-menu-panel-0']/div/button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49884}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49884/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2f4dba1d6c5e6fa6fdbfea9c2ef274b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juice.factory.CheckoutPage.Account(CheckoutPage.java:77)
+	at com.juice.steps.CheckoutSteps.el_usuario_navega_a_la_página(CheckoutSteps.java:16)
+	at ✽.El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Hace clic en el botón Add New Address</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Rellena el formulario  "United States" "John Doe" "1234567890" "12345" "Santa Anita 456" "New York" "NY"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Hace clic en el botón Submit</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then La nueva dirección "Santa Anita 456" aparece en la lista de direcciones.</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log fail-bg mr-2">Fail</span>Agregar una nueva dirección de envío</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mat-menu-panel-0']/div/button[2]"}
+  (Session info: MicrosoftEdge=131.0.2903.146)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [456274404677a912ef26bccec651af2e, findElement {using=xpath, value=//*[@id='mat-menu-panel-0']/div/button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49926}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49926/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 456274404677a912ef26bccec651af2e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juice.factory.CheckoutPage.Account(CheckoutPage.java:77)
+	at com.juice.steps.CheckoutSteps.el_usuario_navega_a_la_página(CheckoutSteps.java:16)
+	at ✽.El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:13)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Hace clic en el botón Add New Address</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Rellena el formulario  "Canada" "Jane Smith" "9876543210" "54321" "San Alejandro 345" "Toronto" "ON"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Hace clic en el botón Submit</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then La nueva dirección "San Alejandro 345" aparece en la lista de direcciones.</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Agregar metodos de pago a la cuenta</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="20"><span class="badge log fail-bg mr-2">Fail</span>Agregar metodos de pago a la cuenta</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given El usuario ingresa a la pagina web "https://juice-shop.herokuapp.com/#/saved-payment-methods"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When Hace clic en el botón Add New card</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mat-menu-panel-0']/div/button[2]"}
+  (Session info: MicrosoftEdge=131.0.2903.146)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8749813f87ec59e54a3e868b5376bda4, findElement {using=xpath, value=//*[@id='mat-menu-panel-0']/div/button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49969}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49969/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8749813f87ec59e54a3e868b5376bda4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juice.factory.CheckoutPage.AddNewCARD(CheckoutPage.java:114)
+	at com.juice.steps.CheckoutSteps.hace_clic_en_el_botón_add_new_card(CheckoutSteps.java:43)
+	at ✽.Hace clic en el botón Add New card(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:28)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Rellena el formulario  "AngelChavez" "1587156852682485" "5" "2080"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Hace clic en el botonSubmit</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then El nuevo metodo de Pago "<address>" aparece en la lista de metodo de pago.</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="28"><span class="badge log fail-bg mr-2">Fail</span>Agregar metodos de pago a la cuenta</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given El usuario ingresa a la pagina web "https://juice-shop.herokuapp.com/#/saved-payment-methods"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When Hace clic en el botón Add New card</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mat-menu-panel-0']/div/button[2]"}
+  (Session info: MicrosoftEdge=131.0.2903.146)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d423791d7c429d442912bf22f1ac87f8, findElement {using=xpath, value=//*[@id='mat-menu-panel-0']/div/button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50071}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50071/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d423791d7c429d442912bf22f1ac87f8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juice.factory.CheckoutPage.AddNewCARD(CheckoutPage.java:114)
+	at com.juice.steps.CheckoutSteps.hace_clic_en_el_botón_add_new_card(CheckoutSteps.java:43)
+	at ✽.Hace clic en el botón Add New card(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:28)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Rellena el formulario  "AngelChavez" "1587156852682488" "2" "2081"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Hace clic en el botonSubmit</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then El nuevo metodo de Pago "<address>" aparece en la lista de metodo de pago.</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log fail-bg mr-2">Fail</span>Agregar un producto a la cesta utilizando la búsqueda</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="37"><span class="badge log fail-bg mr-2">Fail</span>Agregar un producto a la cesta utilizando la búsqueda</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-hip-c48="" type="submit" id="loginButton" mat-raised-button="" color="primary" aria-label="Login" class="mat-focus-indicator mat-raised-button mat-button-base mat-primary">...</button> is not clickable at point (671, 420). Other element would receive the click: <mat-dialog-container tabindex="-1" class="mat-dialog-container cdk-dialog-container ng-tns-c37-10 ng-trigger ng-trigger-dialogContainer ng-star-inserted" id="mat-dialog-0" role="dialog" aria-modal="true" style="transform: none;">...</mat-dialog-container>
+  (Session info: MicrosoftEdge=131.0.2903.146)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7dba9a5e8c507d309779cb49c46a8325, clickElement {id=f.D79AB5D0E5C4329FD246E3D251A20197.d.01C6EBA1BA1E24D39CBCB099DA07C4BC.e.26}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50127}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50127/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7dba9a5e8c507d309779cb49c46a8325)] -> id: loginButton]
+Session ID: 7dba9a5e8c507d309779cb49c46a8325
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.juice.factory.CheckoutPage.UsuarioIniciaSesion(CheckoutPage.java:144)
+	at com.juice.steps.CheckoutSteps.que_el_usuario_ha_iniciado_sesión_con_las_credenciales_y(CheckoutSteps.java:62)
+	at ✽.que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:41)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And que el usuario está en la página principal de la tienda</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When el usuario busca "Apple" en la barra de búsqueda</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And selecciona el producto "Apple"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And lo agrega a la cesta</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And el producto "Apple" debería estar en la cesta</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And luego da clic en chekout</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario selecciona la segunda dirección</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario selecciona el primer método de pago disponible</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario procede a completar el pedido</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then El sistema confirma que el Pedido fue completado exitosamente</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="51"><span class="badge log fail-bg mr-2">Fail</span>Agregar un producto a la cesta utilizando la búsqueda</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-why-c48="" type="submit" id="loginButton" mat-raised-button="" color="primary" aria-label="Login" class="mat-focus-indicator mat-raised-button mat-button-base mat-primary">...</button> is not clickable at point (671, 420). Other element would receive the click: <mat-dialog-container tabindex="-1" class="mat-dialog-container cdk-dialog-container ng-tns-c37-10 ng-trigger ng-trigger-dialogContainer ng-star-inserted" id="mat-dialog-0" role="dialog" aria-modal="true" style="transform: none;">...</mat-dialog-container>
+  (Session info: MicrosoftEdge=131.0.2903.146)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [741beb4cf6ca86fd6f1c15cb529873e8, clickElement {id=f.819BD9E620D057D962860800E28E1AB9.d.BC32148C2082BA942828E13036BDE4DA.e.26}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50175}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50175/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (741beb4cf6ca86fd6f1c15cb529873e8)] -> id: loginButton]
+Session ID: 741beb4cf6ca86fd6f1c15cb529873e8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.juice.factory.CheckoutPage.UsuarioIniciaSesion(CheckoutPage.java:144)
+	at com.juice.steps.CheckoutSteps.que_el_usuario_ha_iniciado_sesión_con_las_credenciales_y(CheckoutSteps.java:62)
+	at ✽.que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:41)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And que el usuario está en la página principal de la tienda</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When el usuario busca "Banana" en la barra de búsqueda</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And selecciona el producto "Banana"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And lo agrega a la cesta</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And el producto "Banana" debería estar en la cesta</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And luego da clic en chekout</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario selecciona la segunda dirección</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario selecciona el primer método de pago disponible</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario procede a completar el pedido</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then El sistema confirma que el Pedido fue completado exitosamente</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log fail-bg mr-2">Fail</span>Agregar un producto a la cesta utilizando la búsqueda</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-fey-c48="" type="submit" id="loginButton" mat-raised-button="" color="primary" aria-label="Login" class="mat-focus-indicator mat-raised-button mat-button-base mat-primary">...</button> is not clickable at point (671, 420). Other element would receive the click: <mat-dialog-container tabindex="-1" class="mat-dialog-container cdk-dialog-container ng-tns-c37-10 ng-trigger ng-trigger-dialogContainer ng-star-inserted" id="mat-dialog-0" role="dialog" aria-modal="true" style="transform: none;">...</mat-dialog-container>
+  (Session info: MicrosoftEdge=131.0.2903.146)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [16ed2d9d0a58d1d265035e22bd091822, clickElement {id=f.CF3E68C586FFAAEAEC1B96BF0186290C.d.D7AD362B7B544AD7B7440DF6E1D91D1F.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50218}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50218/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (16ed2d9d0a58d1d265035e22bd091822)] -> id: loginButton]
+Session ID: 16ed2d9d0a58d1d265035e22bd091822
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.juice.factory.CheckoutPage.UsuarioIniciaSesion(CheckoutPage.java:144)
+	at com.juice.steps.CheckoutSteps.que_el_usuario_ha_iniciado_sesión_con_las_credenciales_y(CheckoutSteps.java:62)
+	at ✽.que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:41)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And que el usuario está en la página principal de la tienda</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When el usuario busca "Shirt" en la barra de búsqueda</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And selecciona el producto "Shirt"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And lo agrega a la cesta</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And el producto "Shirt" debería estar en la cesta</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And luego da clic en chekout</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario selecciona la segunda dirección</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario selecciona el primer método de pago disponible</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And El usuario procede a completar el pedido</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then El sistema confirma que el Pedido fue completado exitosamente</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="79"><span class="badge log fail-bg mr-2">Fail</span>Agregar  productos aleatorios a la cesta y completar la orden</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.juice.steps.CheckoutSteps.el_usuario_accede_a_la_url(java.lang.String)">
+                <span>Given El usuario accede a la URL "https://juice-shop.herokuapp.com/#/login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.juice.steps.CheckoutSteps.el_usuario_incie_sesion_con_las_credenciales_y(java.lang.String,java.lang.String)">
+                <span>When El usuario incie sesion con las credenciales "usuario" y "contraseña"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-iub-c48="" type="submit" id="loginButton" mat-raised-button="" color="primary" aria-label="Login" class="mat-focus-indicator mat-raised-button mat-button-base mat-primary">...</button> is not clickable at point (671, 420). Other element would receive the click: <mat-dialog-container tabindex="-1" class="mat-dialog-container cdk-dialog-container ng-tns-c37-10 ng-trigger ng-trigger-dialogContainer ng-star-inserted" id="mat-dialog-0" role="dialog" aria-modal="true" style="transform: none;">...</mat-dialog-container>
+  (Session info: MicrosoftEdge=131.0.2903.146)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ff337797128a306af5078e8c1d52a2e1, clickElement {id=f.F639233021EBF4B4D73298ED1D834690.d.894D592561992120C1850FE2ADF2B0D9.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.146, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50269}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\Angel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50269/devtoo..., se:cdpVersion: 131.0.2903.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (ff337797128a306af5078e8c1d52a2e1)] -> id: loginButton]
+Session ID: ff337797128a306af5078e8c1d52a2e1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.juice.factory.CheckoutPage.UsuarioIniciaSesion(CheckoutPage.java:144)
+	at com.juice.steps.CheckoutSteps.el_usuario_incie_sesion_con_las_credenciales_y(CheckoutSteps.java:121)
+	at ✽.El usuario incie sesion con las credenciales "usuario" y "contraseña"(file:///D:/31%20de%20diciembre%202024/proyectomodulo03/Proyecto/src/test/resources/features/Checkout.feature:63)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.juice.steps.CheckoutSteps.el_usuario_navega_a_la_página_de_búsqueda_en(java.lang.String)">
+                <span>And El usuario navega a la página de búsqueda en "https://juice-shop.herokuapp.com/#/search"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.juice.steps.CheckoutSteps.el_usuario_selecciona_aleatoriamente_producto_del_catalogo_y_los_agrega_a_la_cesta()">
+                <span>And El usuario selecciona aleatoriamente producto del catalogo y los agrega a la cesta</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.juice.steps.CheckoutSteps.el_usuario_selecciona_la_segunda_dirección_de_envío()">
+                <span>And El usuario selecciona la segunda dirección de envío</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.juice.steps.CheckoutSteps.el_usuario_elige_el_primer_método_de_pago_disponible()">
+                <span>And El usuario elige el primer método de pago disponible</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.juice.steps.CheckoutSteps.el_sistema_muestra_una_confirmación_del_pedido_completado()">
+                <span>Then El sistema muestra una confirmación del pedido completado</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="89"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">: Login de OWASP</p>
+            <p class="text-sm">
+              <span>12:00:53</span> / <span>00:00:26:927</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">: Login de OWASP</h5>
+<span class='badge badge-success'>01.13.2025 12:00:53</span>
+<span class='badge badge-danger'>01.13.2025 12:01:20</span>
+<span class='badge badge-default'>00:00:26:927</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=89</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="90"><span class="badge log pass-bg mr-2">Pass</span>Login con credenciales validas</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="91"><span class="badge log pass-bg mr-2">Pass</span>Login con credenciales validas</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given el usuario esta en la pagina de inicio "https://juice-shop.herokuapp.com/#/login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When el usuario ingresa su "angelchavez_47@gmail.com" y "tingomaria2025" valido</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And hago clic en el botón Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then deberia tener acceso a su cuenta</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="98"><span class="badge log pass-bg mr-2">Pass</span>Login con credenciales validas</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given el usuario esta en la pagina de inicio "https://juice-shop.herokuapp.com/#/login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When el usuario ingresa su "juanperez@gmail.com" y "eljugador90" valido</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And hago clic en el botón Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then deberia tener acceso a su cuenta</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>Login con credenciales validas</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given el usuario esta en la pagina de inicio "https://juice-shop.herokuapp.com/#/login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When el usuario ingresa su "Perez@hotmail.com" y "TingoMariaQa@$" valido</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And hago clic en el botón Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then deberia tener acceso a su cuenta</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="112"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Registro de OWASP</p>
+            <p class="text-sm">
+              <span>12:01:20</span> / <span>00:00:23:057</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registro de OWASP</h5>
+<span class='badge badge-success'>01.13.2025 12:01:20</span>
+<span class='badge badge-danger'>01.13.2025 12:01:43</span>
+<span class='badge badge-default'>00:00:23:057</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=112</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="113"><span class="badge log pass-bg mr-2">Pass</span>Registro de nuevos usuarios</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="114"><span class="badge log pass-bg mr-2">Pass</span>Registro de nuevos usuarios</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given EL usuario esta en la pagina de inicio "https://juice-shop.herokuapp.com/#/register"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When El usuario completa la informacion de registro "angelchavez_47@gmail.com" "tingomaria2025" "tingomaria2025" "Your favorite book?" "donQuijote"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And hago clic en el botón Register</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then El usuario deberia tener su cuenta creada</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="121"><span class="badge log pass-bg mr-2">Pass</span>Registro de nuevos usuarios</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given EL usuario esta en la pagina de inicio "https://juice-shop.herokuapp.com/#/register"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When El usuario completa la informacion de registro "juanperez@gmail.com" "eljugador90" "eljugador90" "Your favorite book?" "metamorfosis"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And hago clic en el botón Register</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then El usuario deberia tener su cuenta creada</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:58:58 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>Given El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar una nueva dirección de envío.Given El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:16 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>Given El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar una nueva dirección de envío.Given El usuario navega a la página "https://juice-shop.herokuapp.com/#/login"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:41 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>When Hace clic en el botón Add New card</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar metodos de pago a la cuenta.When Hace clic en el botón Add New card</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:01 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='31'>When Hace clic en el botón Add New card</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar metodos de pago a la cuenta.When Hace clic en el botón Add New card</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:17 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda.Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:27 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda.Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:36 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='67'>Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda.Given que el usuario ha iniciado sesión con las credenciales "usuario" y "contraseña"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:51 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='82'>When El usuario incie sesion con las credenciales "usuario" y "contraseña"</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar productos aleatorios a la cesta y completar la orden.When El usuario incie sesion con las credenciales "usuario" y "contraseña"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@Login</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Login</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:00:53 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='89' id='91'>Login con credenciales validas</a>
+<div class="">
+<span class="badge badge-default">: Login de OWASP.Login con credenciales validas</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:01:03 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='89' id='98'>Login con credenciales validas</a>
+<div class="">
+<span class="badge badge-default">: Login de OWASP.Login con credenciales validas</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:01:12 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='89' id='105'>Login con credenciales validas</a>
+<div class="">
+<span class="badge badge-default">: Login de OWASP.Login con credenciales validas</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@MetodoPago</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MetodoPago</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:31 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Agregar metodos de pago a la cuenta</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar metodos de pago a la cuenta</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:53 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Agregar metodos de pago a la cuenta</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar metodos de pago a la cuenta</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Pedido2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Pedido2</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:43 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>Agregar productos aleatorios a la cesta y completar la orden</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar productos aleatorios a la cesta y completar la orden</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@Register</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Register</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:01:20 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='112' id='114'>Registro de nuevos usuarios</a>
+<div class="">
+<span class="badge badge-default">Registro de OWASP.Registro de nuevos usuarios</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:01:31 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='112' id='121'>Registro de nuevos usuarios</a>
+<div class="">
+<span class="badge badge-default">Registro de OWASP.Registro de nuevos usuarios</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>8</span>
+</span>
+<p class="name">@chec01</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@chec01</h4>
+<span status="fail" class='badge log badge-danger'>8 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:58:52 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Agregar una nueva dirección de envío</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar una nueva dirección de envío</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:13 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Agregar una nueva dirección de envío</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar una nueva dirección de envío</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:31 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Agregar metodos de pago a la cuenta</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar metodos de pago a la cuenta</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:53 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Agregar metodos de pago a la cuenta</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar metodos de pago a la cuenta</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:14 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>Agregar un producto a la cesta utilizando la búsqueda</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:23 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>Agregar un producto a la cesta utilizando la búsqueda</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:33 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>Agregar un producto a la cesta utilizando la búsqueda</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:43 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>Agregar productos aleatorios a la cesta y completar la orden</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar productos aleatorios a la cesta y completar la orden</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@Direccion</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Direccion</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:58:52 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Agregar una nueva dirección de envío</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar una nueva dirección de envío</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:59:13 a. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Agregar una nueva dirección de envío</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar una nueva dirección de envío</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@Pedido1</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Pedido1</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:14 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>Agregar un producto a la cesta utilizando la búsqueda</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:23 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>Agregar un producto a la cesta utilizando la búsqueda</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:00:33 p. m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>Agregar un producto a la cesta utilizando la búsqueda</a>
+<div class="">
+<span class="badge badge-default">CHECKOUT.Agregar un producto a la cesta utilizando la búsqueda</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>ene 13, 2025 11:58:50 a. m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>ene 13, 2025 12:01:43 p. m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='66%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='33%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='38%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='61%'><b>8</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='28%'><b>23</b> steps passed</small></div>
+<div>
+<small data-tooltip='10%'><b>8</b> steps failed,
+<b>49</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"CHECKOUT":120.878,": Login de OWASP":26.927,"Registro de OWASP":23.057
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Login</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@MetodoPago</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Pedido2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Register</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@chec01</td>
+<td>0</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Direccion</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Pedido1</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>user</td>
+<td>angelchavez</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 8,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 23,
+failGrandChild: 8,
+warningGrandChild: 0,
+skipGrandChild: 49,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
